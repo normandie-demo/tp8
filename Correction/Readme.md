@@ -32,3 +32,5 @@ Editer le fichier *roles/db/tasks/main.yml*
 ```Shell
 ansible-playbook -i inventory mariadb.yaml
 ```
+
+Lien vers le dossier [corrections](../Correction)
