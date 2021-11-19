@@ -12,7 +12,7 @@ ansible-galaxy role init db --offline --init-path roles
 
 Editer le fichier *roles/db/tasks/main.yml*
 
-```
+```yaml
 ---
 # tasks file for db
 
