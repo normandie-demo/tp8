@@ -1,0 +1,5 @@
+---
+- hosts: back
+  become: yes
+  roles:
+    - db

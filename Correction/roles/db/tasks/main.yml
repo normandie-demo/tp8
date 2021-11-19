@@ -1,0 +1,11 @@
+---
+# tasks file for db
+
+- name: installation de mariadb
+  ansible.builtin.dnf:
+    name: mariadb-server
+
+- name: demarrer MariaDB
+  ansible.builtin.systemd:
+    name: mariadb
+    state: started
