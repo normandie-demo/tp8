@@ -2,9 +2,9 @@
 
 ## Objectif:
 
-Initialiser un rôle db et y ajouter des tâches
-Construire un playbook exécutant ce rôle sur les machines back
-Exécuter ce playbook
+Initialiser un rôle db et y ajouter des tâches  
+Construire un playbook exécutant ce rôle sur les machines back  
+Exécuter ce playbook  
 
 
 ## Besoin:

@@ -26,6 +26,15 @@ Editer le fichier *roles/db/tasks/main.yml*
     state: started
 
 ```
+## Création du Playbook **mariadb.yaml**
+
+```yaml
+---
+- hosts: back
+  become: yes
+  roles:
+    - db
+```
 
 ## Exécuter ce playbook sur l’inventaire *inventory*
 
